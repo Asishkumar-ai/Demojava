@@ -1,26 +1,35 @@
-  String str1 = "hi swathi ";
-        String str2 = "where r u";
-        String str3 = "i am in chennai";
-        int n1 = str1.length();
-        int n2 = str2.length();
-        int n3 = str3.length();
-        char[] chr = new char[n1+n2+n3];
-        int ind = 0;
-        for(int i=0;i<n1;i++)
-        {
-            chr[ind] = 0;
-            chr[ind++] = str1.charAt(i);
-        }
-        for(int i=0;i<n2;i++)
-        {
-            chr[ind] = 0;
-            chr[ind++] = str2.charAt(i);
-        }
-        for(int i=0;i<n3;i++)
-        {
-            chr[ind] = 0;
-            chr[ind++] = str3.charAt(i);
-        }
-        String str = String.valueOf(chr);
-        System.out.println(str);
-    }}
+
+public class Simple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  String str1 = "hi swathi ";
+	        String str2 = "where r u";
+	        String str3 = "i am in chennai";
+	        int n1 = str1.length();
+	        int n2 = str2.length();
+	        int n3 = str3.length();
+	        char[] chr = new char[n1+n2+n3];
+	        int ind = 0;
+	        for(int i=0;i<n1;i++)
+	        {
+	            chr[ind] = 0;
+	            chr[ind++] = str1.charAt(i);
+	        }
+	        for(int i=0;i<n2;i++)
+	        {
+	            chr[ind] = 0;
+	            chr[ind++] = str2.charAt(i);
+	        }
+	        for(int i=0;i<n3;i++)
+	        {
+	            chr[ind] = 0;
+	            chr[ind++] = str3.charAt(i);
+	        }
+	        String str = String.valueOf(chr);
+	        System.out.println(str);
+	    
+
+	}
+
+}
